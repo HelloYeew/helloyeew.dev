@@ -4,4 +4,4 @@
 # License
  Due to this project using `fullpage.js` that's required GPLv3 license.
 
- The font is not free-to-use due to the license of Adobe Fonts.
+ Domus Titling font is license on Adobe Fonts library.
