@@ -1,0 +1,44 @@
+/*Default styling*/
+
+p {
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 90%!important;
+    }
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#section0{
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/692624.png") top center;
+    background-size: cover;
+}
+
+.welcome-text-small {
+    font-size: 2rem;
+}
+
+.welcome-text {
+    font-size: 4.25rem;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+#first-icon {
+    height: 100%;
+    width: 100%;
+}
