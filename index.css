@@ -1,10 +1,19 @@
 /*Default styling*/
 
-p {
+* {
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
     font-family: jaf-domus-titling-web, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: white;
+}
+
+.comfortaa {
+    font-family: comfortaa, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 @media (min-width: 1200px) {
@@ -40,6 +49,25 @@ p {
     border-radius: 50%;
 }
 
-#first-icon {
+#profile-image-intro {
     width: 100%;
+}
+
+/*About page*/
+
+#about-page{
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/926968.png") center center;
+    background-size: cover;
+}
+
+#about-header {
+    font-size: 4rem;
+}
+
+#about-text {
+    font-size: 2rem;
+}
+
+#profile-image-about {
+    width: 90%;
 }
