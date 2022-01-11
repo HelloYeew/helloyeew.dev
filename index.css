@@ -16,7 +16,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-h1.spacing-header {
+.spacing-header {
     letter-spacing: 1rem;
     font-weight: 700;
     font-size: 3rem;
@@ -109,7 +109,7 @@ h1.spacing-header {
     font-size: 2rem!important;
 }
 
-/*About page*/
+/*Project page*/
 
 #project-page {
     background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/555559.jpg") center center;
@@ -135,4 +135,16 @@ h1.spacing-header {
     z-index: 2;
     font-size: 1rem;
     background-color: rgba(0,0,0,0.5);
+}
+
+#project-more {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/*Contact page*/
+
+#contact-page {
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/879383.jpg") center center;
+    background-size: cover;
 }
