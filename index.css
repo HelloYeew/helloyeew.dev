@@ -109,3 +109,30 @@ h1.spacing-header {
     font-size: 2rem!important;
 }
 
+/*About page*/
+
+#project-page {
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/555559.jpg") center center;
+    background-size: cover;
+}
+
+.project-name {
+    font-weight: 300;
+}
+
+.project-time {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.project-image {
+    width: 80%;
+}
+
+.project-description {
+    width: 80%;
+    margin-top: -6%;
+    z-index: 2;
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0.5);
+}
