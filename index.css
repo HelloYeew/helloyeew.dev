@@ -154,3 +154,16 @@ p, h1, h2, h3, h4, h5, h6 {
 .contact-list {
     font-size: 1.75rem;
 }
+
+/*fullpage.js config*/
+
+.fp-tooltip {
+    font-family: jaf-domus-titling-web, sans-serif!important;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: white;
+}
