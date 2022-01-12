@@ -2,6 +2,7 @@
 
 * {
     color: white;
+    transition: 0.2s;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -190,8 +191,22 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-left: 5%;
 }
 
-a.navbar-brand, a.menu-item {
+a.navbar-brand {
     color:white;
+}
+
+a.menu-item {
+    font-size: 1.75rem!important;
+    color: dimgrey;
+}
+
+a.menu-item.active {
+    font-size: 2.5rem!important;
+    color:white;
+}
+
+a.navbar-brand:hover, a.menu-item:hover, .nav-item:hover, .nav-item:focus {
+    color:#ff66aa!important;
 }
 
 @media (min-width: 768px) {

@@ -19,27 +19,29 @@
 </head>
 <body>
 
+<!--TODO: FIND NEW WALLPAPER-->
+
     <header id="header">
         <nav class="navbar navbar-expand-lg">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-                <a class="navbar-brand d-none d-lg-inline-block" href="#start">
+                <a class="navbar-brand d-none d-lg-inline-block" href="#start" id="menulinkpage0">
                     wang
                 </a>
             </div>
-            <div class="collapse navbar-collapse flex-grow-1 justify-content-end">
+            <div class="collapse navbar-collapse flex-grow-1 justify-content-end align-middle">
                 <ul class="navbar-nav ml-auto flex-nowrap">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link m-2 menu-item">About</a>
+                    <li class="nav-item align-middle">
+                        <a href="#about" id="menulinkpage1" class="nav-link m-2 menu-item align-middle">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link m-2 menu-item">Resume</a>
+                    <li class="nav-item align-middle">
+                        <a href="#resume" id="menulinkpage2" class="nav-link m-2 menu-item align-middle">Resume</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link m-2 menu-item">Projects</a>
+                    <li class="nav-item align-middle">
+                        <a href="#project" id="menulinkpage3" class="nav-link m-2 menu-item align-middle">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+                    <li class="nav-item align-middle">
+                        <a href="#contact" id="menulinkpage4" class="nav-link m-2 menu-item align-middle">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -197,6 +199,7 @@
     </div>
 
     <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript" src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
@@ -206,6 +209,12 @@
             navigationTooltips: ['Home', 'About', 'Resume', 'Projects', 'Contact'],
             menu: '.navbar',
             paddingTop: '72px',
+
+            // Events
+            afterLoad: function(origin, destination, direction) {
+                console.log(origin.index, destination.index, direction);
+                adjustHeaderColor(origin.index, destination.index);
+            }
         });
     </script>
 </body>
