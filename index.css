@@ -2,6 +2,7 @@
 
 * {
     color: white;
+    transition: 0.2s;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -166,4 +167,55 @@ p, h1, h2, h3, h4, h5, h6 {
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     background-color: white;
+}
+
+/*Header*/
+
+#header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-item, .navbar-brand {
+    font-family: jaf-domus-titling-web, sans-serif!important;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem!important;
+}
+
+.navbar-brand {
+    font-size: 3.5rem!important;
+    margin-left: 5%;
+}
+
+a.navbar-brand {
+    color:white;
+}
+
+a.menu-item {
+    font-size: 1.75rem!important;
+    color: dimgrey;
+}
+
+a.menu-item.active {
+    font-size: 2.5rem!important;
+    color:white;
+}
+
+a.navbar-brand:hover, a.menu-item:hover, .nav-item:hover, .nav-item:focus {
+    color:#ff66aa!important;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
 }
