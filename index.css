@@ -225,3 +225,7 @@ a.navbar-brand:hover, a.menu-item:hover, .nav-item:hover, .nav-item:focus {
         text-align: center;
     }
 }
+
+a.menu-item.disable {
+    pointer-events: none;
+}
