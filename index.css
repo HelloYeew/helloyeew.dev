@@ -202,12 +202,10 @@ a.navbar-brand {
 }
 
 a.menu-item {
-    font-size: 1.75rem!important;
     color: #8e8e8e;
 }
 
 a.menu-item.active {
-    font-size: 2.5rem!important;
     color:white;
 }
 
