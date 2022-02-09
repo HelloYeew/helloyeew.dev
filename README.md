@@ -10,6 +10,6 @@ I design using Adobe XD. You can see the design prototype in the following link.
 # License
  Due to this project using `fullpage.js` that's required GPLv3 license. This project is GPLv3 license.
 
- Domus Titling font is license on Adobe Fonts library.
+ Domus Titling font is license on Adobe Fonts library that's available on Adobe Creatove Cloud.
 
  Comfortaa font is license on [Google Fonts](https://fonts.google.com/).
