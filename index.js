@@ -23,9 +23,23 @@ function adjustHeaderColor(start_index, target_index) {
                 console.log(e);
             }
         }
-        if (start_element.classList.contains("active")) {
-            start_element.classList.remove("active");
+        try {
+            if (start_element.classList.contains("active")) {
+                start_element.classList.remove("active");
+            }
+        } catch (e) {
+            console.log(e);
         }
         target_element.classList.add("active");
     }
 }
+
+function onResize() {
+    myFullpage.autoScrolling = document.documentElement.clientWidth >= 930;
+    console.log(myFullpage.autoScrolling);
+    console.log(document.documentElement.clientWidth);
+}
+
+window.onresize = function() {onResize()};
+
+window.addEventListener("load", function(){onResize()})
