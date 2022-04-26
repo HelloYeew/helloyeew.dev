@@ -46,7 +46,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Introduction page*/
 
 #start-page{
-    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/692624.jpg") top center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/823030.jpg") top center;
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /*About page*/
 
 #about-page{
-    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/926968.jpg") center center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/867638.jpg") center center;
     background-size: cover;
 }
 
@@ -88,7 +88,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Resume page*/
 
 #resume-page {
-    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/713840.jpg") center center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/612530.jpg") center center;
     background-size: cover;
 }
 
@@ -153,7 +153,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Contact page*/
 
 #contact-page {
-    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/Komizuki.full.3016549.jpg") top center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/924925.jpg") top center;
     background-size: cover;
 }
 
